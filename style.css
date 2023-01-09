@@ -1,0 +1,302 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+main {
+    flex-grow: 1;
+}
+
+header {
+	background:  #85CDF5;;
+	color:  #fff;padding:  20px;
+}
+footer {
+	background: rgb(51,51,51);
+	color:  #fff;padding:  20px;
+}
+main {
+	background:  rgb(255, 253, 253);
+}
+
+header, main, footer {
+    flex-shrink: 0;
+}
+
+/*Links do topo*/
+
+.menu-topo > .links-topo > a{
+    color: black;
+    font-family:'Darker Grotesque';
+    font-size: 1.8em;
+    text-decoration: none;
+}
+
+.menu-topo{
+  
+   /* Configurações Flex;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.links-topo2{
+    color: black;
+    font-family:'Darker Grotesque';
+    font-size: 1.8em;
+    text-decoration: none;
+    text-align: center;
+
+
+}
+.seta{
+    border-radius: 8rem;
+    background-color:black;
+    padding: 1px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: black;
+}
+
+
+.seta:hover{
+    color: white;
+    padding-left: 10rem;
+    background-color: rgba(46, 46, 70, 0.747);
+    border-top-left-radius: 8rem;
+    border-bottom-left-radius: 8rem ;
+    transition-property: all ;
+    transition-duration: 0.8s;
+
+}
+
+
+.parte1{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 1400px;
+    color:white;
+    background-image: url("Adote\ um\ Lobinho\ 2021.3\ \(Copy\)/image.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content:center;
+    text-align: center;
+    width: auto;
+}
+
+.parte1 h3{
+    font-family: Darker Grotesque;
+    font-size: 7em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130px;
+    letter-spacing: 0em;
+    line-height: 1.5;
+
+}
+
+.parte1 p{
+    font-family: Darker Grotesque;
+    font-size:1.2em;
+    width:400px;
+    align-self: center;
+    
+}
+
+.parte2{
+    background-color:rgb(44, 86, 128);
+    display: flex;
+    flex-direction: column;
+    padding:3% 6%;
+    justify-content:center;
+    text-align: center;
+    width: auto;
+
+}
+
+.parte2 h3{
+    color:rgb(222, 185, 89);
+    font-family: Darker Grotesque;
+    font-size: 3em;
+    line-height: 1.5;
+
+}
+
+.parte2 p{
+    font-family: Darker Grotesque;
+    width:900px;
+    align-self: center;
+    color:white;
+    line-height: 1.5;
+
+}
+
+
+.painel{
+    display:flex;
+    flex-direction:row;
+    
+
+}
+
+.parte3{
+   background: rgb(51, 51, 51);
+   display: flex;
+   padding:3% 6%;
+  
+   
+}
+
+.imagem{
+    background: rgb(255, 254, 254);
+    border-radius: 100%;
+    margin:5% 5% 7%;
+    
+      
+}
+.parte3 h3{
+    color:rgb(222, 185, 89);
+    font-family: Darker Grotesque;
+    font-size: 3em;
+    line-height: 1.5;
+    justify-content:center;
+    text-align: center;
+    width: auto;
+
+}
+
+.parte3 p, .ima1, .ima2, .ima3, .ima4{
+    display: flex;
+    color:white;
+    font-family: Darker Grotesque;
+    margin:5% 5% 7%;
+    align-items: center;
+    align-self:center;
+    text-align: center;
+
+}
+
+.parte4 h3{
+    padding:3% 6%;
+    text-align: center;
+    color:rgb(222, 185, 89);
+    font-family: Darker Grotesque;
+    font-size: 3em;
+    line-height: 1.5;
+   
+}
+
+
+.lobinho{
+    width:25rem;
+    height:20rem;
+    position: relative;
+}
+
+
+.wolf-list{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    list-style-type:none;
+    justify-content: center;
+    
+    
+}
+
+.descricao_lobinho {
+    margin:0% 3% 3% 3%;
+ 
+}
+
+.descricao_lobinho h1 {
+    
+    color:rgb(0, 0, 0);
+    font-family: Darker Grotesque;
+    font-size: 3em;
+    line-height: 1.5;
+    width: auto;
+}
+
+.descricao_lobinho p{
+    line-height: 1.5;
+    text-align:left;
+    font-size:1.5em;
+    line-height: 1.5;
+    width:500px;
+    
+}
+
+
+.texto-imagem{
+    display: flex;
+    margin: 7% 3% 3% 3%;
+    justify-content:center;
+}
+
+
+.gradiente{
+    height: 5px;
+    background: linear-gradient(270deg, #2C5680 0%, #DEB959 100%)
+}
+
+.rodape{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: flex-start;
+    margin: 0% 0% 0% 0%;
+
+}
+
+.mapa{
+    margin:5%;
+    
+}
+
+
+.informacoes{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+    margin:5% 5% 7%;
+    line-height: 1.5;
+
+}
+
+.botao1{
+    background-color:rgb(222, 185, 89); 
+    color: rgb(10, 10, 10);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    font-family:'Darker Grotesque';
+    
+}
+
+.patinha{
+   justify-content: center;
+   align-items: center;
+   margin: 5%;
+   
+}
+
+.informacoes, .rua, .tel, .email{
+    padding-bottom: 1rem;
+}
+
+
+
+
+

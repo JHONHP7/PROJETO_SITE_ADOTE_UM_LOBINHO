@@ -1,0 +1,187 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    
+}
+
+main {
+    flex-grow: 1;
+}
+
+header {
+	background:  #85CDF5;;
+	color:  #fff;padding:  20px;
+}
+footer {
+	background: rgb(51,51,51);
+	color:  #fff;padding:  20px;
+}
+main {
+	background:  rgb(255, 253, 253);
+}
+
+header, main, footer {
+    flex-shrink: 0;
+}
+
+/*Links do topo*/
+
+.menu-topo > .links-topo > a{
+    color: black;
+    font-family:'Darker Grotesque';
+    font-size: 1.8em;
+    text-decoration: none;
+}
+
+.menu-topo{
+  
+   /* Configurações Flex;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+
+.links-topo2{
+    color: black;
+    font-family:'Darker Grotesque';
+    font-size: 1.8em;
+    text-decoration: none;
+    text-align: center;
+
+
+}
+.seta{
+    border-radius: 8rem;
+    background-color:black;
+    padding: 1px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: black;
+}
+
+
+.seta:hover{
+    color: white;
+    padding-left: 10rem;
+    background-color: rgba(46, 46, 70, 0.747);
+    border-top-left-radius: 8rem;
+    border-bottom-left-radius: 8rem ;
+    transition-property: all ;
+    transition-duration: 0.8s;
+
+}
+
+
+.painel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:3% 6%;
+
+}
+
+
+.container{
+    background:#fff;
+    border-width:medium;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    padding:3% 6%;
+    width:50%;
+    height:50%;
+   
+
+
+}
+
+.container h3{
+    color:rgb(0, 0, 0);
+    font-family: Darker Grotesque;
+    font-size: 2em;
+    line-height: 1.5;
+    text-align: center;
+    margin:5% 5% 7%;
+    
+}
+
+.texto{
+    display:flex;
+    flex-direction: column;
+}
+
+.botao2{
+    display: flex;
+    background-color: #2C5680;
+    color: rgb(255, 255, 255);
+    padding: 2% 6%;
+    font-weight: 700;
+    font-family:'Darker Grotesque';
+    margin: 5% 0%; 
+    width:fit-content;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.gradiente{
+    height: 5px;
+    background: linear-gradient(270deg, #2C5680 0%, #DEB959 100%)
+}
+
+
+
+.rodape{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: flex-start;
+    margin: 0% 0% 0% 0%;
+
+}
+
+.mapa{
+    margin:5%;
+    
+}
+
+
+.informacoes{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+    margin:5% 5% 7%;
+    line-height: 1.5;
+
+}
+
+.botao1{
+    background-color:rgb(222, 185, 89); 
+    color: rgb(10, 10, 10);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    font-family:'Darker Grotesque';
+    
+}
+
+.patinha{
+   justify-content: center;
+   align-items: center;
+   margin: 5%;
+   
+}
+
+.informacoes, .rua, .tel, .email{
+    padding-bottom: 1rem;
+}
